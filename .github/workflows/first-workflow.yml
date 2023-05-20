@@ -1,6 +1,6 @@
 name: First Workflow
 on: 
-  push:
+  commit:
     # only trigger on branches, not on tags
     branches: '**'
 
@@ -12,4 +12,4 @@ jobs:
       - name: Print greeting
         run: echo "Hello World!"
       - name: Print goodbye
-        run: echo "Done - tchu!"
+        run: echo "Done - tchau!"
