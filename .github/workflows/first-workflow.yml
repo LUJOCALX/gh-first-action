@@ -1,5 +1,10 @@
 name: First Workflow
-on: workflow_dispatch
+on: 
+  push:
+    # only trigger on branches, not on tags
+    branches: '**'
+
+
 jobs:
   first-job:
     runs-on: ubuntu-latest
