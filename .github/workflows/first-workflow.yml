@@ -1,6 +1,6 @@
 name: First Workflow
 on: 
-  commit:
+  push:
     # only trigger on branches, not on tags
     branches: '**'
 
