@@ -2,7 +2,7 @@ name: First Workflow
 on: 
   push:
     # only trigger on branches, not on tags
-    branches: 'ma'
+    branches: '123'
 
 
 jobs:
